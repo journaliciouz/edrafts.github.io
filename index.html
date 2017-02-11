@@ -19,7 +19,11 @@
 
 
 
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
 
 
 
@@ -30,7 +34,8 @@
 </script><tw-passagedata pid="1" name="Emergency Central - Story 1, Home invasion" tags="" position="504,21">THIS IS A DRAFT.
 
 [[Click to start the story|A call]]</tw-passagedata>
-<tw-passagedata pid="2" name="A call" tags="" position="508,150">You are in the call room. Your fellow emergency-central operators surround you and fill the large, open, office-like room with the sound of clicking keyboards and calm voices.
+<tw-passagedata pid="2" name="A call" tags="" position="508,150">1
+You are in the call room. Your fellow emergency-central operators surround you and fill the large, open, office-like room with the sound of clicking keyboards and calm voices.
 
 *RING RING*
 You look down at your phone. The display reads:
@@ -44,7 +49,8 @@ BRADBURY STREET
 A red light is flashing.
 
 [[Answer the phone|Introduction]]</tw-passagedata>
-<tw-passagedata pid="3" name="Introduction" tags="" position="506,275">The phone clicks as you pick it up.
+<tw-passagedata pid="3" name="Introduction" tags="" position="506,275">1.1
+The phone clicks as you pick it up.
 
 “911, where’s your emergency?”
 
@@ -68,7 +74,7 @@ A voice breaks through. It whispers quickly. Too quick to grasp and the phone co
 
 
 </tw-passagedata>
-<tw-passagedata pid="4" name="SETUP" tags="" position="508,400">
+<tw-passagedata pid="4" name="SETUP" tags="" position="508,400">1.2
 &quot;Sir or madam, please speak up. I need you to tell me your address and the nature of your emergency,&quot; you repeat.
 
 “I..&quot; 
@@ -99,7 +105,8 @@ Moments of silence follows.
 [[Are your family in the house with you?|BRANCH 1 - FIGHT OR FLIGHT]]
 
 [[Are you in a safe position?|BRANCH 2 - HIDE]]</tw-passagedata>
-<tw-passagedata pid="5" name="BRANCH 1 - FIGHT OR FLIGHT" tags="" position="363,502">“Miss, are your family there with you?” you press her.
+<tw-passagedata pid="5" name="BRANCH 1 - FIGHT OR FLIGHT" tags="" position="363,502">3
+“Miss, are your family there with you?” you press her.
 
 &quot;My son… Oh my god, my son is in his bedroom next to mine! Please help us”
 
@@ -110,13 +117,15 @@ Moments of silence follows.
 &quot;Hang on miss, I&#39;m sending over a police unit&quot;
 
 [[Hold on miss, I’m calling a dispatch now.|DISPATCH 1]]</tw-passagedata>
-<tw-passagedata pid="6" name="DISPATCH 2" tags="" position="812,488">&quot;Hold on miss, I’m calling a dispatch now.&quot;
+<tw-passagedata pid="6" name="DISPATCH 2" tags="" position="812,488">2.1
+&quot;Hold on miss, I’m calling a dispatch now.&quot;
 
 The static of the phone call fades away as you press one of the quick dial buttons on your phone.&quot;
 
 “This is precinct, come in,” a police dispatcher answers.
 
-&quot;Woman and child on 31 Bradbury Street, repeat, 31 Bradbury Street, reporting home invasion.”
+&quot;Woman on 31 Bradbury Street, repeat, 31 Bradbury Street, reporting home invasion.”
+
 “One identified invader, expect one police unit, over.”
 
 ...
@@ -132,7 +141,8 @@ You hear another click as you disconnect from the police line. The static from t
 ... 
 
 [[&quot;Miss, are you there?&quot;|BRANCH 2 INTRO]]</tw-passagedata>
-<tw-passagedata pid="7" name="DISPATCH 1" tags="" position="204,504">&quot;Hold on miss, I’m calling a dispatch now.&quot;
+<tw-passagedata pid="7" name="DISPATCH 1" tags="" position="204,504">3.1
+&quot;Hold on miss, I’m calling a dispatch now.&quot;
 
 The static of the phone call fades away as you press one of the quick dial buttons on your phone.&quot;
 
@@ -150,7 +160,8 @@ The static of the phone call fades away as you press one of the quick dial butto
 You hear another click as you disconnect from the police line. The static from the other phone call humm as you press it back into your headset.
 
 [[&quot;The police are on the way miss, hold on. Are you safe?&quot;|BRANCH 1 INTRO]]</tw-passagedata>
-<tw-passagedata pid="8" name="BRANCH 2 INTRO" tags="" position="655,680">(if: $son is &quot;known&quot;)[
+<tw-passagedata pid="8" name="BRANCH 2 INTRO" tags="" position="655,680">2.2
+(if: $son is &quot;known&quot;)[
 &quot;Okay Nathalie listen to me. You will have to hide, we don&#39;t know what this man will do if he finds you.&quot;
 
 Nathalie starts sobbing
@@ -194,7 +205,8 @@ Her sobbing continues in your headset as you ponder what to do.
 [[Hide in the closet, that&#39;s your best chance|CLOSET]]
 [[Hide under the bed, he does not have a reason to look there|BED]]
 [[Just stay where you are. He will find you either way.|STAY]]</tw-passagedata>
-<tw-passagedata pid="9" name="BED" tags="" position="651,852">&quot;Okay. I&#39;ll try.&quot;
+<tw-passagedata pid="9" name="BED" tags="" position="651,852">2.4
+&quot;Okay. I&#39;ll try.&quot;
 
 ...
 
@@ -211,7 +223,8 @@ You hear muffled sobbing.
 *THUMP*
 
 [[Continue|BED 2]]</tw-passagedata>
-<tw-passagedata pid="10" name="STAY" tags="" position="777,857">&quot;..What? You want him to just.. FIND me,&quot; Nathalie whispers even quiter.
+<tw-passagedata pid="10" name="STAY" tags="" position="777,857">2.5
+&quot;..What? You want him to just.. FIND me,&quot; Nathalie whispers even quiter.
 
 &quot;Trust me. He is going through your house for your valuables Nathalie. He will look EVERYWHERE. Just stay calm and follow his orders. Police are on the way.&quot;
 
@@ -255,7 +268,8 @@ Nathalie is still silent.
 &quot;Mommy?&quot; a young voice asks.
 
 [[Continue|END]]</tw-passagedata>
-<tw-passagedata pid="11" name="CLOSET" tags="" position="526,857">&quot;Okay.. Hang on..&quot;
+<tw-passagedata pid="11" name="CLOSET" tags="" position="526,857">2.3
+&quot;Okay.. Hang on..&quot;
 
 The phone scrambles against her face. She grunts as she gets into the closet.
 
@@ -263,23 +277,25 @@ The phone scrambles against her face. She grunts as she gets into the closet.
 
 &quot;Hang on Nathalie. You&#39;re doing great. Remember, you only need to hang on a few more moments. The police are on their way!&quot;
 
-&quot;Thank you.. Really, thank you-&quot;
+Nathalie sobs.
 
 Nathalie stops mid-sentence. You hear footsteps.
 Drawers are opened slowly. The footsteps walks further away.
 
-The sound of Nathalie&#39;s breathing disappears.
+Nathalie holds her breath.
 The footsteps come closer.
 
 ..
 
 [[Closer|CLOSET 2]]
 </tw-passagedata>
-<tw-passagedata pid="12" name="BED 2" tags="" position="654,1007">...
+<tw-passagedata pid="12" name="BED 2" tags="" position="654,1007">2.4.1
+...
 
 [[Whisper out to Nathalie|BED END]]
 [[Say nothing|BED 3]]</tw-passagedata>
-<tw-passagedata pid="13" name="BED 3" tags="" position="611,1133">**You hear Nathalie&#39;s breathing throughout the scene.**
+<tw-passagedata pid="13" name="BED 3" tags="" position="611,1133">2.4.2
+**You hear Nathalie&#39;s breathing throughout the scene.**
 
 You hear footsteps walking through the room.
 
@@ -336,7 +352,8 @@ A door slams
 Nathalie starts crying as sirens approach in the distance
 
 [[The end|END]]</tw-passagedata>
-<tw-passagedata pid="14" name="BED END" tags="" position="736,1134">&quot;Hey, Nathalie.. Are you allright?&quot;
+<tw-passagedata pid="14" name="BED END" tags="" position="736,1134">2.4.3
+&quot;Hey, Nathalie.. Are you allright?&quot;
 
 ...
 
@@ -372,7 +389,8 @@ Nathalie lets out a deep sigh. Then starts crying.
 (set: $discovered_son to &quot;false&quot;)
 (set: $robber_mood to &quot;scared&quot;)
 [[The end|END]]</tw-passagedata>
-<tw-passagedata pid="15" name="END" tags="" position="443,1415">*DOOT DOOT DOOT*
+<tw-passagedata pid="15" name="END" tags="" position="443,1415">END
+*DOOT DOOT DOOT*
 The phone disconnects.
 
 The sound of the keyboards clicking away around you grows louder without the static of the phone call.
@@ -384,7 +402,10 @@ The sound of the keyboards clicking away around you grows louder without the sta
 The phone clicks as you pick it up.
 
 “911, where’s your emergency?”</tw-passagedata>
-<tw-passagedata pid="16" name="CLOSET 2" tags="" position="526,1007">&quot;Mommy?&quot; A frail voice calls into the room. Nathalie gasps.
+<tw-passagedata pid="16" name="CLOSET 2" tags="" position="526,1007">2.3.1
+&quot;Mommy?&quot; A frail voice calls into the room. Nathalie gasps.
+
+...
 
 &quot;What have we here? Hi son, what&#39;s your name?&quot; a man asks.
 
@@ -420,7 +441,8 @@ As sirens is heard far away you hear thrashing. Sounds of furniture being kicked
 You hear Nathalie&#39;s muffled sobs as the door to her house is kicked down.
 
 [[Continue|END]]</tw-passagedata>
-<tw-passagedata pid="17" name="BRANCH 1 INTRO" tags="" position="201,679">As the static from the phone call fades back into your ear you hear a whisper.
+<tw-passagedata pid="17" name="BRANCH 1 INTRO" tags="" position="201,679">3.2
+As the static from the phone call fades back into your ear you hear a whisper.
 
 &quot;Daniel.. How could I forget..&quot;
 
@@ -468,14 +490,16 @@ You can tell she&#39;s calmer now.
 [[Nathalie, I&#39;m going to have to ask you to try to get out of the house|FLIGHT 1 - SOLO]]
 [[We&#39;re going to get your son to safety Nathalie, okay?|FLIGHT 2 W SON]]
 [[Your son will be fine. But Nathalie. You need to hide|BRANCH 2 INTRO]]</tw-passagedata>
-<tw-passagedata pid="18" name="BRANCH 2 - HIDE" tags="" position="640,490">&quot;Where are you in the house miss, are you safe?&quot;
+<tw-passagedata pid="18" name="BRANCH 2 - HIDE" tags="" position="640,490">2
+&quot;Where are you in the house miss, are you safe?&quot;
 
 &quot;I&#39;m upstairs.. I heard noise downstairs, so I took a look and saw a flashlight down stairs.. I went back to my bedroom and called you..&quot;
 &quot;Please.. send help&quot;
 
 
 [[Hold on miss, I’m calling a dispatch now.|DISPATCH 2]]</tw-passagedata>
-<tw-passagedata pid="19" name="FLIGHT 2 W SON" tags="" position="275,828">&quot;Where in the house is Daniel?&quot; you ask.
+<tw-passagedata pid="19" name="FLIGHT 2 W SON" tags="" position="275,828">3.3
+&quot;Where in the house is Daniel?&quot; you ask.
 
 &quot;His bedroom is right next to mine&quot;
 
@@ -508,7 +532,8 @@ You hear a door creak open slightly
 ...
 
 [[&quot;I understand.|SON]]</tw-passagedata>
-<tw-passagedata pid="20" name="FLIGHT 1 - SOLO" tags="" position="115,829">&quot;Listen Nathalie. You put Daniel to sleep, right?&quot;
+<tw-passagedata pid="20" name="FLIGHT 1 - SOLO" tags="" position="115,829">3.4
+&quot;Listen Nathalie. You put Daniel to sleep, right?&quot;
 
 ...
 
@@ -557,7 +582,8 @@ You hear a door creak open slightly
 ...
 
 [[&quot;Okay.&quot;|SOLO]]</tw-passagedata>
-<tw-passagedata pid="21" name="SOLO" tags="" position="111,1027">You hear the door creak open as you click the mute button on your headset.
+<tw-passagedata pid="21" name="SOLO" tags="" position="111,1027">3.4.1
+You hear the door creak open as you click the mute button on your headset.
 
 You hear Nathalie&#39;s breathing grow fainter as she lowers the phone away from her mouth
 
@@ -600,13 +626,15 @@ Nathalie&#39;s breath disappears.
 [[Continue|SOLO 2]]
 
 </tw-passagedata>
-<tw-passagedata pid="22" name="SOLO 2" tags="" position="111,1177">The sound of Super Mario dying breaks the silence.
+<tw-passagedata pid="22" name="SOLO 2" tags="" position="111,1177">3.4.2
+The sound of Super Mario dying breaks the silence.
 
 You click the button to unmute your headset
 
 [[&quot;Nathalie, don&#39;t!&quot;(set:$cry_out=1)|SOLO 3]]
 [[Stay silent(set:$cry_out=0)|SOLO 3]]</tw-passagedata>
-<tw-passagedata pid="23" name="SOLO 3" tags="" position="111,1327">(if: $cry_out&gt;0)[
+<tw-passagedata pid="23" name="SOLO 3" tags="" position="111,1327">3.4.3
+(if: $cry_out&gt;0)[
 &quot;Nathalie, don&#39;t!&quot; you exclaim] 
 (else:)[]
 A thud and scrambling pierces your ears as the phone is dropped.
@@ -634,7 +662,8 @@ A door creaks open.
 You hear footsteps on the stairs.
 
 [[The end|END]]</tw-passagedata>
-<tw-passagedata pid="24" name="SON" tags="" position="276,1023">You hear the door creak open as you click the mute button on your headset.
+<tw-passagedata pid="24" name="SON" tags="" position="276,1023">3.3.1
+You hear the door creak open as you click the mute button on your headset.
 
 You hear Nathalie&#39;s breathing grow fainter as she lowers the phone away from her mouth
 
@@ -703,7 +732,8 @@ The flashlight clicks on.
 
 [[Continue|SON 2]]
 </tw-passagedata>
-<tw-passagedata pid="25" name="SON 2" tags="" position="276,1173">The phone scrambles as it is picked up.
+<tw-passagedata pid="25" name="SON 2" tags="" position="276,1173">3.3.2
+The phone scrambles as it is picked up.
 
 You hear Nathalie and Daniel&#39;s footsteps.
 
